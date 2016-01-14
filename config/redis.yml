@@ -1,0 +1,9 @@
+development:
+  host: localhost
+  port: 6379
+test:
+  host: localhost
+  port: 6379
+production:
+  host: <%= ENV['VCAP_SERVICES']["rediscloud"].first["credentials"]["hostname"] %>
+  port: <%= ENV['VCAP_SERVICES']["rediscloud"].first["credentials"]["port"] %>

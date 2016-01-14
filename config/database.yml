@@ -26,4 +26,5 @@ test:
   database: status_monitor_test
 
 production:
+  adapter: mysql2
   url: <%= ENV['DATABASE_URL'] %>

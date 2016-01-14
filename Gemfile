@@ -10,6 +10,7 @@ gem 'rails_12factor'
 gem 'mysql2'
 gem 'activeadmin', '~> 1.0.0.pre2'
 gem 'devise'
+gem 'redis'
 
 gem 'jquery-rails'
 gem 'turbolinks'
