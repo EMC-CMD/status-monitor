@@ -7,3 +7,4 @@ applications:
   command: bundle exec rake db:migrate db:seed && bundle exec rails s Puma -p $PORT
   services:
     - mysql
+    - redis
