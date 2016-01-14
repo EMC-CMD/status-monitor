@@ -8,6 +8,8 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'puma'
 gem 'rails_12factor'
 gem 'mysql2'
+gem 'activeadmin', '~> 1.0.0.pre2'
+gem 'devise'
 
 gem 'jquery-rails'
 gem 'turbolinks'
